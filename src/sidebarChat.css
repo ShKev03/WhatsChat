@@ -1,0 +1,68 @@
+.sidebarChat__avatar{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background-color: rgb(214, 214, 214);
+    border: 1px solid darkgray;
+}
+
+.sidebarChat{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid lightgrey;
+}
+
+.sidebarChat:hover{
+    border-left: 10px solid rgb(15, 79, 77);
+    transition: 0.5s;
+    background-color: #d6d6d646;
+}
+
+.sidebarChat__info{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.sidebarChat__roomName{
+    font-size: 24px;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #272727;
+    text-emphasis: none;
+}
+
+.sidebarChat__lastMes{
+    font-size: 16px;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-decoration: none !important;
+    color: rgb(135, 135, 135);
+
+}
+
+.addchat-btn{
+    border-top: 1px solid rgb(206, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 10px solid rgb(25, 143, 139);
+    background: #faf9f9;
+}
+
+.addchat-btn:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 10px solid rgb(15, 79, 77);
+    border-left: none;
+}
+
+.h2a{
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none !important;
+}
